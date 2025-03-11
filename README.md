@@ -137,26 +137,27 @@ We provide several edited models with SPEED on Stable Diffusion v1.4.
 
 | Concept Erasure Task | Edited Model |
 |---|---|
-| Few-Concept Erasure | [Link](https://rec.ustc.edu.cn/share/20312400-fe43-11ef-bbbc-4721580c9837) | 
-| Multi-Concept Erasure | [Link](https://rec.ustc.edu.cn/share/2e96f430-fe43-11ef-b572-97a879666bd2) | 
-| Implicit Concept Erasure | [Link](https://rec.ustc.edu.cn/share/36aa5250-fe43-11ef-968b-6123e5c640c6) | 
+| Few-Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/20312400-fe43-11ef-bbbc-4721580c9837) | 
+| Multi-Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/2e96f430-fe43-11ef-b572-97a879666bd2) | 
+| Implicit Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/36aa5250-fe43-11ef-968b-6123e5c640c6) | 
 
 
 ## More Applications
 
 Our method can adapt to other T2I models across versatile applications.
 
-### Composite Concept Erasure on Community Versions
+- Composite Concept Erasure on Community Versions
 
 ![teaser](assets/app_community.JPEG)
 
-### Knowledge Editing on SDXL
+- Knowledge Editing on SDXL
 
 ![teaser](assets/app_SDXL.JPEG)
 
-### Instance Erasure and Prior Preservation on SDv3
+- Instance Erasure and Prior Preservation on SDv3
 
 ![teaser](assets/app_SD3.JPEG)
+
 
 ## Citation
 If you find the repo useful, please consider citing.

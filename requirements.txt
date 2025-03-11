@@ -1,0 +1,10 @@
+diffusers==0.32.2
+transformers==4.48.0
+torch_fidelity==0.3.0
+kmeans_pytorch==0.3
+nudenet==3.4.2
+accelerate
+pandas
+tqdm
+einops
+prettytable
