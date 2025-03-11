@@ -48,6 +48,8 @@ CUDA_VISIBLE_DEVICES=0 python train_erase_null.py \
     --retain_path "data/10_celebrity.csv" --heads "concept"
 ```
 
+The edited checkpoints will be saved at `logs/checkpoints` by default, you can alternatively specific `--save_path` to your preferred path.
+
 ### Image Sampling
 
 ```python
