@@ -93,6 +93,9 @@ run_task() {
       --num_samples 1 --batch_size 10 \
       --save_root "$save_root" \
       --edit_ckpt "$save_root/$limited_target/weight.pt"
+    CUDA_VISIBLE_DEVICES=$gpu_id python src/clip_score_cal.py \
+      --contents "coco" \
+      --root_path "${save_root}"
   elif [ "$content" == "erase" ] || [ "$content" == "retain" ]; then
     CUDA_VISIBLE_DEVICES=$gpu_id python sample2.py \
       --erase_type "$erase_type" \
