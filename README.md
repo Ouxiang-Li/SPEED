@@ -5,7 +5,7 @@ This is the official Pytorch implementation of our paper:
 >
 > Ouxiang Li, Yuan Wang, Xinting Hu, Houcheng Jiang, Tao Liang, Yanbin Hao, Guojun Ma, Fuli Feng
 
-![teaser](assets/teaser.png)
+![teaser](assets/teaser.jpeg)
 
 **Three characteristics of our proposed method, SPEED.** <span style="color:#4285F4"><b>  (a) Scalable:</b></span> SPEED seamlessly scales from single-concept to large-scale multi-concept erasure (e.g., 100 celebrities) without additional design.  <span style="color:#34A853"><b>(b) Precise:</b></span> SPEED precisely removes the target concept (e.g., *Snoopy*) while preserving the semantic integrity for non-target concepts (e.g., *Hello Kitty* and *SpongeBob*).  <span style="color:#EA4335"><b>(c) Efficient:</b></span> SPEED can immediately erase 100 concepts within 5 seconds, achieving a ×350 speedup over the state-of-the-art (SOTA) method.
 
