@@ -59,7 +59,7 @@ CUDA_VISIBLE_DEVICES=0 python sample.py \
     --mode 'original, edit' \
     --edit_ckpt '{checkpoint_path}' \
     --num_samples 10 --batch_size 10 \
-    --save_root 'logs/instance'
+    --save_root 'logs/few-concept/instance'
 
 # Artistic Style Erasure
 CUDA_VISIBLE_DEVICES=0 python sample.py \
@@ -69,7 +69,8 @@ CUDA_VISIBLE_DEVICES=0 python sample.py \
     --mode 'original, edit' \
     --edit_ckpt '{checkpoint_path}' \
     --num_samples 10 --batch_size 10 \
-    --save_root 'logs/style'
+    --save_root 'logs/few-concept/style'
+
 # 10-Celebrity Erasure
 CUDA_VISIBLE_DEVICES=0 python sample2.py \
     --erase_type "10_celebrity" \
