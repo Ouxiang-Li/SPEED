@@ -124,7 +124,7 @@ CUDA_VISIBLE_DEVICES=0 python metrics/evaluate_by_GCD.py --image_folder '{image_
 
 ### On Implicit Concept Erasure
 
-You can directly run the following script for fast evaluation, which consists of: (1) model editing, (2) I2P image sampling, and (3) NudeNet detection.
+You can directly run the following script for fast evaluation, which consists of: (1) model editing, (2) I2P & MS-COCO image sampling, and (3) NudeNet detection & MS-COCO evaluation.
 
 ```python
 bash scripts/eval_nudity.sh
@@ -146,17 +146,17 @@ We provide several edited models with SPEED on Stable Diffusion v1.4.
 
 Our method can adapt to other T2I models across versatile applications.
 
-- Composite Concept Erasure on Community Versions
+- **Composite Concept Erasure on Community Versions**
 
-![teaser](assets/app_community.JPEG)
+  ![app_community](assets/app_community.JPEG)
 
-- Knowledge Editing on SDXL
+- **Knowledge Editing on SDXL**
 
-![teaser](assets/app_SDXL.JPEG)
+  ![app_SDXL](assets/app_SDXL.JPEG)
 
-- Instance Erasure and Prior Preservation on SDv3
+- **Instance Erasure and Prior Preservation on SDv3**
 
-![teaser](assets/app_SD3.JPEG)
+  ![app_SD3](assets/app_SD3.JPEG)
 
 
 ## Citation
