@@ -5,9 +5,9 @@ This is the official Pytorch implementation of our paper:
 >
 > Ouxiang Li, Yuan Wang, Xinting Hu, Houcheng Jiang, Tao Liang, Yanbin Hao, Guojun Ma, Fuli Feng
 
-![teaser](assets/teaser.jpeg)
+![teaser](assets/teaser.JPEG)
 
-**Three characteristics of our proposed method, SPEED.** <span style="color:#4285F4"><b>  (a) Scalable:</b></span> SPEED seamlessly scales from single-concept to large-scale multi-concept erasure (e.g., 100 celebrities) without additional design.  <span style="color:#34A853"><b>(b) Precise:</b></span> SPEED precisely removes the target concept (e.g., *Snoopy*) while preserving the semantic integrity for non-target concepts (e.g., *Hello Kitty* and *SpongeBob*).  <span style="color:#EA4335"><b>(c) Efficient:</b></span> SPEED can immediately erase 100 concepts within 5 seconds, achieving a ×350 speedup over the state-of-the-art (SOTA) method.
+**Three characteristics of our proposed method, SPEED.**  **(a) Scalable:** SPEED seamlessly scales from single-concept to large-scale multi-concept erasure (e.g., 100 celebrities) without additional design.  **(b) Precise:** SPEED precisely removes the target concept (e.g., *Snoopy*) while preserving the semantic integrity for non-target concepts (e.g., *Hello Kitty* and *SpongeBob*).  **(c) Efficient:** SPEED can immediately erase 100 concepts within 5 seconds, achieving a ×350 speedup over the state-of-the-art (SOTA) method.
 
 ## News
 - `2025/03` :star2: Code and checkpoints are released.
@@ -83,8 +83,8 @@ CUDA_VISIBLE_DEVICES=0 python sample2.py \
 
 In the command above, you can configure the `--mode` to determine the sampling mode:
 
-- **`original`**: Generate images using the original Stable Diffusion model.
-- **`edit`**: Generate images with the erased checkpoint.
+- `original`: Generate images using the original Stable Diffusion model.
+- `edit`: Generate images with the erased checkpoint.
 
 
 ## Metrics Evaluation
@@ -141,6 +141,22 @@ We provide several edited models with SPEED on Stable Diffusion v1.4.
 | Multi-Concept Erasure | [Link](https://rec.ustc.edu.cn/share/2e96f430-fe43-11ef-b572-97a879666bd2) | 
 | Implicit Concept Erasure | [Link](https://rec.ustc.edu.cn/share/36aa5250-fe43-11ef-968b-6123e5c640c6) | 
 
+
+## More Applications
+
+Our method can adapt to other T2I models across versatile applications.
+
+### Composite Concept Erasure on Community Versions
+
+![teaser](assets/app_community.JPEG)
+
+### Knowledge Editing on SDXL
+
+![teaser](assets/app_SDXL.JPEG)
+
+### Instance Erasure and Prior Preservation on SDv3
+
+![teaser](assets/app_SD3.JPEG)
 
 ## Citation
 If you find the repo useful, please consider citing.
