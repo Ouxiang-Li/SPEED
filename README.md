@@ -49,7 +49,7 @@ CUDA_VISIBLE_DEVICES=0 python train_erase_null.py \
     --retain_path "data/10_celebrity.csv" --heads "concept"
 ```
 
-Since the retain set for multi-concept erasure includes only 100 celebrities, which does not reach rank saturation, we specify --disable_filter to bypass the initial filter using IPF. This results in $\mathbf{R}_\text{refine} = \mathbf{R} \cup \left(\mathbf{R}\right)^{\text{aug}}_f$. The edited checkpoints will be saved at `logs/checkpoints` by default, you can alternatively specific `--save_path` to your preferred path.
+Since the retain set for multi-concept erasure includes only 100 celebrities following MACE, which does not reach rank saturation, we specify `--disable_filter` to disable the initial filter with IPF. This results in $\mathbf{R}_\text{refine} = \mathbf{R} \cup \left(\mathbf{R}\right)^{\text{aug}}_f$. The edited checkpoints will be saved at `logs/checkpoints` by default, you can alternatively specific `--save_path` to your preferred path.
 
 ### Image Sampling
 
