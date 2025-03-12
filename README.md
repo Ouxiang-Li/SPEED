@@ -139,11 +139,11 @@ bash scripts/eval_nudity.sh
 
 We provide several edited models with SPEED on Stable Diffusion v1.4.
 
-| Concept Erasure Task | Edited Model |
-|---|---|
-| Few-Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/20312400-fe43-11ef-bbbc-4721580c9837) | 
-| Multi-Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/2e96f430-fe43-11ef-b572-97a879666bd2) | 
-| Implicit Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/36aa5250-fe43-11ef-968b-6123e5c640c6) | 
+| Concept Erasure Task | Edited Model | Hugging Face |
+|---|---|---|
+| Few-Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/20312400-fe43-11ef-bbbc-4721580c9837) | <a href='https://huggingface.co/lioooox/SPEED/tree/main' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
+| Multi-Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/2e96f430-fe43-11ef-b572-97a879666bd2) | <a href='https://huggingface.co/lioooox/SPEED/tree/main' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
+| Implicit Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/36aa5250-fe43-11ef-968b-6123e5c640c6) | <a href='https://huggingface.co/lioooox/SPEED/tree/main' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
 
 
 ## More Applications
