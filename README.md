@@ -45,10 +45,11 @@ CUDA_VISIBLE_DEVICES=0 python train_erase_null.py \
 CUDA_VISIBLE_DEVICES=0 python train_erase_null.py \
     --target_concepts "Adam Driver, Adriana Lima, Amber Heard, Amy Adams, Andrew Garfield, Angelina Jolie, Anjelica Huston, Anna Faris, Anna Kendrick, Anne Hathaway" \
     --anchor_concepts "person" \
+    --retain_scale 0.05 --disable_filter \
     --retain_path "data/10_celebrity.csv" --heads "concept"
 ```
 
-The edited checkpoints will be saved at `logs/checkpoints` by default, you can alternatively specific `--save_path` to your preferred path.
+Since the retain set for multi-concept erasure includes only 100 celebrities, which does not reach rank saturation, we specify --disable_filter to bypass the initial filter using IPF. This results in $\mathbf{R}_\text{refine} = \mathbf{R} \cup \left(\mathbf{R}\right)^{\text{aug}}_f$. The edited checkpoints will be saved at `logs/checkpoints` by default, you can alternatively specific `--save_path` to your preferred path.
 
 ### Image Sampling
 
