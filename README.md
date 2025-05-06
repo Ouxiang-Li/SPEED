@@ -100,7 +100,7 @@ In the command above, you can configure the `--mode` to determine the sampling m
 We first generate images from the pre-trained model as a baseline for subsequent comparisons, and these images are also used to calculate FID.
 
 ```python
-bash pretrain/pretrain_sample.sh
+bash data/pretrain/pretrain_sample.sh
 ```
 
 This script facilitates to sample the original images on few-concept erasure (`instance`, `style`), multi-concept (`10/50/100 celebrities`) erasure, and MS-COCO generations (`coco`).

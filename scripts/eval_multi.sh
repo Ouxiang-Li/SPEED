@@ -75,7 +75,7 @@ run_task() {
     limited_target="${limited_target}_${num}"
   fi
 
-  echo "$baseline: Running task for [$erase_type] with [$limited_target → $anchor] on [$content] on GPU [$gpu_id] with [a=$a, b=$b, c=$c, d=$d, e=$e]"
+  echo "$baseline: Running task for [$erase_type] with [$limited_target → $anchor] on [$content] on GPU [$gpu_id] with [a=$a, b=$b, c=$c]"
 
   CUDA_VISIBLE_DEVICES=$gpu_id python train_erase_null.py \
       --baseline $baseline \
