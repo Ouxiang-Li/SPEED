@@ -5,6 +5,15 @@ This is the official Pytorch implementation of our paper:
 >
 > Ouxiang Li, Yuan Wang, Xinting Hu, Houcheng Jiang, Tao Liang, Yanbin Hao, Guojun Ma, Fuli Feng
 
+<p align="center">
+  <a href='https://arxiv.org/abs/2503.07392'>
+    <img src='https://img.shields.io/badge/Arxiv-2509.03516-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+  </a>
+  <a href='https://huggingface.co/lioooox/SPEED'>
+    <img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange'>
+  </a>
+</p>
+
 ![teaser](assets/teaser.JPEG)
 
 **Three characteristics of our proposed method, SPEED.**  **(a) Scalable:** SPEED seamlessly scales from single-concept to large-scale multi-concept erasure (e.g., 100 celebrities) without additional design.  **(b) Precise:** SPEED precisely removes the target concept (e.g., *Snoopy*) while preserving the semantic integrity for non-target concepts (e.g., *Hello Kitty* and *SpongeBob*).  **(c) Efficient:** SPEED can immediately erase 100 concepts within 5 seconds, achieving a ×350 speedup over the state-of-the-art (SOTA) method.
@@ -141,29 +150,18 @@ bash scripts/eval_nudity.sh
 
 We provide several edited models with SPEED on Stable Diffusion v1.4.
 
-| Concept Erasure Task | Edited Model | Hugging Face |
-|---|---|---|
-| Few-Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/20312400-fe43-11ef-bbbc-4721580c9837) | <a href='https://huggingface.co/lioooox/SPEED/tree/main' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
-| Multi-Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/2e96f430-fe43-11ef-b572-97a879666bd2) | <a href='https://huggingface.co/lioooox/SPEED/tree/main' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
-| Implicit Concept Erasure | [Cloud Drive Link](https://rec.ustc.edu.cn/share/36aa5250-fe43-11ef-968b-6123e5c640c6) | <a href='https://huggingface.co/lioooox/SPEED/tree/main' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
+| Concept Erasure Task | Edited Model |
+|---|---|
+| Few-Concept Erasure | <a href='https://huggingface.co/lioooox/SPEED/tree/main/few-concept' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
+| Multi-Concept Erasure | <a href='https://huggingface.co/lioooox/SPEED/tree/main/multi-concept' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
+| Implicit Concept Erasure | <a href='https://huggingface.co/lioooox/SPEED/tree/main/nudity' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
 
 
 ## More Applications
 
 Our method can adapt to other T2I models across versatile applications.
 
-- **Composite Concept Erasure on Community Versions**
-
-  ![app_community](assets/app_community.JPEG)
-
-- **Knowledge Editing on SDXL**
-
-  ![app_SDXL](assets/app_SDXL.JPEG)
-
-- **Instance Erasure and Prior Preservation on SDv3**
-
-  ![app_SD3](assets/app_SD3.JPEG)
-
+![application](assets/application.JPEG)
 
 ## Citation
 If you find the repo useful, please consider citing.
