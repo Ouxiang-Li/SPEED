@@ -18,10 +18,10 @@ This is the official Pytorch implementation of our paper:
 
 **Three characteristics of our proposed method, SPEED.**  **(a) Scalable:** SPEED seamlessly scales from single-concept to large-scale multi-concept erasure (e.g., 100 celebrities) without additional design.  **(b) Precise:** SPEED precisely removes the target concept (e.g., *Snoopy*) while preserving the semantic integrity for non-target concepts (e.g., *Hello Kitty* and *SpongeBob*).  **(c) Efficient:** SPEED can immediately erase 100 concepts within 5 seconds, achieving a ×350 speedup over the state-of-the-art (SOTA) method.
 
-## News
+## 📣 News
 - `2025/03` :star2: Code and checkpoints are released.
 
-## Requirements
+## 📄 Requirements
 
 Install the environment as follows:
 
@@ -35,7 +35,7 @@ pip install torch==2.3.0 torchvision==0.18.0
 pip install -r requirements.txt
 ```
 
-## Concept Erasure with SPEED
+## 🔥 Concept Erasure with SPEED
 
 ### Model Editing
 
@@ -102,7 +102,7 @@ In the command above, you can configure the `--mode` to determine the sampling m
 - `edit`: Generate images with the erased checkpoint.
 
 
-## Metrics Evaluation
+## 📏 Metrics Evaluation
 
 ### Pre-trained Model Sampling
 
@@ -146,7 +146,7 @@ bash scripts/eval_nudity.sh
 ```
 
 
-## Model Card
+## 🟨 Model Card
 
 We provide several edited models with SPEED on Stable Diffusion v1.4.
 
@@ -157,13 +157,13 @@ We provide several edited models with SPEED on Stable Diffusion v1.4.
 | Implicit Concept Erasure | <a href='https://huggingface.co/lioooox/SPEED/tree/main/nudity' style="margin: 0 2px; text-decoration: none;"><img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'></a> |
 
 
-## More Applications
+## 📊 More Applications
 
 Our method can adapt to other T2I models across versatile applications.
 
 ![application](assets/application.JPEG)
 
-## Citation
+## ✍️ Citation
 If you find the repo useful, please consider citing.
 ```
 @misc{li2025speedscalablepreciseefficient,
