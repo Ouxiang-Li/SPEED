@@ -7,7 +7,7 @@ This is the official Pytorch implementation of our paper:
 
 <p align="center">
   <a href='https://arxiv.org/abs/2503.07392'>
-    <img src='https://img.shields.io/badge/Arxiv-2509.03516-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+    <img src='https://img.shields.io/badge/Arxiv-2503.07392-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
   <a href='https://huggingface.co/lioooox/SPEED'>
     <img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange'>
