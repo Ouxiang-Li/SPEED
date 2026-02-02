@@ -6,7 +6,7 @@ This is the official Pytorch implementation of our paper:
 > Ouxiang Li, Yuan Wang, Xinting Hu, Houcheng Jiang, Tao Liang, Yanbin Hao, Guojun Ma, Fuli Feng
 
 <p align="center">
-  <a href='https://arxiv.org/abs/2503.07392v2'>
+  <a href='https://arxiv.org/abs/2503.07392'>
     <img src='https://img.shields.io/badge/Arxiv-2503.07392-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
   <a href='https://huggingface.co/lioooox/SPEED'>
