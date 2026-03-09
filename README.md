@@ -167,10 +167,12 @@ Our method can adapt to other T2I models across versatile applications.
 ## ✍️ Citation
 If you find the repo useful, please consider citing.
 ```
-@article{li2025speed,
-  title={Speed: Scalable, precise, and efficient concept erasure for diffusion models},
-  author={Li, Ouxiang and Wang, Yuan and Hu, Xinting and Jiang, Houcheng and Liang, Tao and Hao, Yanbin and Ma, Guojun and Feng, Fuli},
-  journal={arXiv preprint arXiv:2503.07392},
-  year={2025}
+@inproceedings{
+  li2026speed,
+  title={{SPEED}: Scalable, Precise, and Efficient Concept Erasure for Diffusion Models},
+  author={Ouxiang Li and Yuan Wang and Xinting Hu and Houcheng Jiang and Tao Liang and Yanbin Hao and Guojun Ma and Fuli Feng},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=aoEtzdRkGh}
 }
 ```
